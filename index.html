@@ -1,34 +1,110 @@
-<html class="abeltheo_com">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Courier+Prime:400i&effect=font-effect-anaglyph|Montserrat:300i&display=swap" rel="stylesheet">
-    <style>
-      body {
-        font-family: 'Courier Prime', monospace;
-        font-size: 15px;
-      }
-    </style>
+  <title>Abel Theodros</title>
+  <meta charset="utf8">
+  <meta name="viewport" content="width=devicewidth, initialscale=1">
+  <link rel="stylesheet" href="styles.css">
+  <!-- <script>
+    $("button").click(function() {
+        var e = document.getElementById("content1");
+        e.scrollIntoView(false); // Makes the element 
+    });
+  </script> -->
 </head>
 <body>
-  <div class="landing">
-    <div class="title">
-      <center>My name is <font size="20">Abel Theodros_</font></center>
-    </div>
-    <div class="desc">
-      I am currently studying Computer Science at at UC Riverside.
-      <br>
-      This website is currently <div class="font-effect-anaglyph">	under reconstruction. </div>
-      <br>
-      You can view my resume <a href="Resume.pdf">here</a>
-
-      <br>
-      
-
-
-    </div>
-    <br>
-          <br>
+  <div id="navbar">
+    <a style = "font-weight: bold" >Abel Theodros</a>
+    <a href="#aboutme">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#exp">Experience</a>
+    <a href="#contact">Contact</a>
   </div>
 
+  <div class = "typewriter">
+    <h1>Hello, my name is Abel Theodros</h1>
+  </div>
 
-</body></html>
+  <p>Welcome to my portfolio website.</p>
+  <p>The link to my resume: <a target="_blank"  style=" text-decoration: none; font-weight:bold" href="abel_theodros_resume.pdf">RESUME</a></p>
 
+  <div class = "section" id = "aboutme">
+    <h2>a little bit about me</h2>
+    <p>I am currently studying Computer Science at the University of California, Riverside with a graduation date of December 2021. </p>
+    <p>Over the summer I completed a SWE internship at Roku where I expanded my skill set in front-end development and embedded systems. I am looking to for opportunties in full stack and back end development as a Software Engineer and am able to begin January 2022. </p>
+
+    </div>
+
+  <div class = "section"id = "exp">
+    <h2>
+      Experience
+    </h2>
+    <p>To be added.</p>
+  </div>
+
+  <div class = "section" id = "skills">
+    <h2>Skills</h2>
+    <p>To be added.</p>
+  </div>
+  
+
+  <div class = "section" id = "projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>R’Room (Full Stack, Database)</li>
+      <ul>
+        <li>Class Project</li>
+        <li>CS110 - Web Development </li>
+        <li>May - June 2021</li>
+        <li>Developed a full stack desktop application which allows UCR students to sent encrypted messages to each other, designed to resemble a early 2000’s chatroom. </li>
+        <li>Accounts, requests and available spaces are stored MongoDB, while HTML/CSS/JavaScript and Node.js are used to retrieve input from the frontend. </li>
+        <li>Languages used: </li>
+        <li>Fields: </li>
+      </ul>
+      <li>Foodie (Backend, Full Stack)</li>
+      <ul>
+        <li>CS180 - Software Engineering</li>
+        <li>October - December 2020</li>
+        <li>Wrote a full stack web application that searches for information on a data set containing 10,000 recipes using Flask for back end and JavaScript/CSS/HTML for front end in a group of five</li>
+        <li>Languages</li>
+      </ul>
+      <li>Tic-Tac-Toe (Full Stack, Cloud Computing, Database)</li>
+      <ul>
+        <li>Personal project</li>
+        <li>September 2020</li>
+        <li>Developed demo for a full stack application with cloud computing for a multi-player game of Tic-Tac-Toe, teaching myself ReactJS and Flask alongside a partner</li>
+        <li>Information for games and accounts stored on AWS DynamoDB</li>
+      </ul>
+
+
+      <li>Safety Safe (Low-Level Embedded Systems, Security)</li>
+      <ul>
+        <li>Class Project</li>
+        <li>CS179J - Embedded Systems</li>
+        <li>Summer 2020</li>
+        <li>Constructed and programmed a secure lockbox with two-factor authorization in Arduino to ensure maximum security of personal items</li>
+        <li>Working with three engineers to code commands in C/C++ to detect specific frequencies from an RFID key, record previous unlocks in an access log, and recognize pressure patterns from a touchscreen to mimic an Android phone lock</li>  
+      </ul>
+      <li>R’Shell (Shell scripting)</li>
+      <ul>
+        <li>Class Project</li>
+        <li>CS100 - Shell Scripting</li>
+        <li>Winter 2020</li>
+        <li>Coded a command line shell in C++ and Vim with a partner to simulate bash shell functionality</li>
+        <li>Stores input and execute programs for associated commands (ls, cd, test) using syscalls (fork, execvp, and waitpid)</li>
+      </ul>
+
+      </ul>
+
+      <p>To be added.</p>
+  </div>
+  <div  class = "section" id = "contact">
+    <h2>Contact</h2>
+    <p>To be added.</p>
+  </div>
+  
+
+
+</body>
+</html>
