@@ -2,7 +2,7 @@ body {
   margin: 0;
   background-color: white;
   color: black;
-  font-size: 23px;
+  font-size: 22px;
   font-family: lucida console;
   /* animation: fadeInAnimation ease 3s; */
   animation-iteration-count: 1;
@@ -51,9 +51,9 @@ p {
   margin-left: 5em;
   overflow: hidden;
   border-right: .15em solid black;
-  width: 62.4%;
+  width: 62.9%;
   animation:
-    blink-caret 1.4s step-start 20;
+    blink-caret 1.4s step-start infinite;
 }
 
 @keyframes blink-caret {
