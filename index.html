@@ -1,110 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
   <title>Abel Theodros</title>
-  <meta charset="utf8">
-  <meta name="viewport" content="width=devicewidth, initialscale=1">
-  <link rel="stylesheet" href="styles.css">
-  <!-- <script>
-    $("button").click(function() {
-        var e = document.getElementById("content1");
-        e.scrollIntoView(false); // Makes the element 
-    });
-  </script> -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
+
+
+
 <body>
-  <div id="navbar">
-    <a style = "font-weight: bold" >Abel Theodros</a>
-    <a href="#aboutme">About Me</a>
-    <a href="#projects">Projects</a>
-    <a href="#skills">Skills</a>
-    <a href="#exp">Experience</a>
-    <a href="#contact">Contact</a>
+<!-- Navbar -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a href="" class="navbar-brand" onclick="document.getElementById('').scrollIntoView(true); return false;" >Abel Theodros</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-center">
+        <li>
+          <a href="" onclick="document.getElementById('experience').scrollIntoView(true); return false;">About Me</a>
+        </li>
+        <li>
+          <a href="" onclick="document.getElementById('projects').scrollIntoView(true); return false;">Projects</a>
+        </li>
+        <li>
+          <a href="" onclick="document.getElementById('skills').scrollIntoView(true); return false;">Skills</a>
+        </li>
+        <li>
+          <a href="" onclick="document.getElementById('contact').scrollIntoView(true); return false;">Contact</a>
+        </li>
+      </ul>
+    </div>
   </div>
+</nav>
+<br>
 
-  <div class = "typewriter">
-    <h1>Hello, my name is Abel Theodros</h1>
-  </div>
-
-  <p>Welcome to my portfolio website.</p>
-  <p>Here's my <a target="_blank"  style=" text-decoration: none; font-weight:bold" href="abel_theodros_resume.pdf">resume</a></p>
-
-  <div class = "section" id = "aboutme">
-    <h2>a little bit about me</h2>
-    <p>I am currently studying Computer Science at the University of California, Riverside with a graduation date of December 2021. </p>
-    <p>Over the summer I completed a SWE internship at Roku where I expanded my skill set in front-end development and embedded systems. I am looking to for opportunties in full stack and back end development as a Software Engineer and am able to begin January 2022. </p>
-
+<div class = "container-fluid bg-1 text-center">
+  <div class = "row">
+    <div class = "col-lg-6">
+        <img src="/images/abel.png" class="img-circle img-thumbnail" alt="Bird" width="350">
+    </div>
+    <div class = "col-lg-6">
+      <h2>
+        <mark><b>Hello!</b></mark>
+        <br>
+        My name is Abel and
+        I am a software engineer
+        and recent graduate of UC Riverside. 
+        <br>
+      </h2>
     </div>
 
-  <div class = "section"id = "exp">
-    <h2>
-      Experience
-    </h2>
-    <p>To be added.</p>
   </div>
+</div>
 
-  <div class = "section" id = "skills">
-    <h2>Skills</h2>
-    <p>To be added.</p>
-  </div>
+
+<div id = "experience" class="container-fluid bg-3 text-center">
+  <h3 class="margin">
+    <mark><b>
+      A LITTLE BIT ABOUT ME
+      </b>
+    </mark>
+  </h3>
+
+  <div class = "container">
+    <p> 
+      Born in Berkeley, CA and grew up in the Bay Area.
+      <br>
+      My family immigrated to the US from Ethiopia. 
+      <br>
+      During high school, I attended my first coding class and decided to study computer science. 
+      <br> 
+      In December 2021, I gained my B.S. in Computer Science. 
+      <br>
+      As of now, <mark>I am looking for full-time opportunities in full-stack development and software engineering.  </mark> 
+    </p>
   
-
-  <div class = "section" id = "projects">
-    <h2>Projects</h2>
-    <ul>
-      <li>R’Room (Full Stack, Database)</li>
-      <ul>
-        <li>Class Project</li>
-        <li>CS110 - Web Development </li>
-        <li>May - June 2021</li>
-        <li>Developed a full stack desktop application which allows UCR students to sent encrypted messages to each other, designed to resemble a early 2000’s chatroom. </li>
-        <li>Accounts, requests and available spaces are stored MongoDB, while HTML/CSS/JavaScript and Node.js are used to retrieve input from the frontend. </li>
-        <li>Languages used: </li>
-        <li>Fields: </li>
-      </ul>
-      <li>Foodie (Backend, Full Stack)</li>
-      <ul>
-        <li>CS180 - Software Engineering</li>
-        <li>October - December 2020</li>
-        <li>Wrote a full stack web application that searches for information on a data set containing 10,000 recipes using Flask for back end and JavaScript/CSS/HTML for front end in a group of five</li>
-        <li>Languages</li>
-      </ul>
-      <li>Tic-Tac-Toe (Full Stack, Cloud Computing, Database)</li>
-      <ul>
-        <li>Personal project</li>
-        <li>September 2020</li>
-        <li>Developed demo for a full stack application with cloud computing for a multi-player game of Tic-Tac-Toe, teaching myself ReactJS and Flask alongside a partner</li>
-        <li>Information for games and accounts stored on AWS DynamoDB</li>
-      </ul>
-
-
-      <li>Safety Safe (Low-Level Embedded Systems, Security)</li>
-      <ul>
-        <li>Class Project</li>
-        <li>CS179J - Embedded Systems</li>
-        <li>Summer 2020</li>
-        <li>Constructed and programmed a secure lockbox with two-factor authorization in Arduino to ensure maximum security of personal items</li>
-        <li>Working with three engineers to code commands in C/C++ to detect specific frequencies from an RFID key, record previous unlocks in an access log, and recognize pressure patterns from a touchscreen to mimic an Android phone lock</li>  
-      </ul>
-      <li>R’Shell (Shell scripting)</li>
-      <ul>
-        <li>Class Project</li>
-        <li>CS100 - Shell Scripting</li>
-        <li>Winter 2020</li>
-        <li>Coded a command line shell in C++ and Vim with a partner to simulate bash shell functionality</li>
-        <li>Stores input and execute programs for associated commands (ls, cd, test) using syscalls (fork, execvp, and waitpid)</li>
-      </ul>
-
-      </ul>
-
-      <p>To be added.</p>
   </div>
-  <div  class = "section" id = "contact">
-    <h2>Contact</h2>
-    <p>To be added.</p>
-  </div>
-  
+</div>
 
+<div id = "projects" class="container-fluid bg-3 text-center">
+  <h3 class="margin"><b>What Have I Made So Far?</b></h3>
+  <p>The following are breakdowns of favorite projects from the past two years</p>
+  <div class="container">
+    <div class="row noMargin">
+      <div class="col box noMargin">
+        <a id="button1">Chatter</a>
+      </div>
+      <div class="col box ">
+        <a id="button2">Safety Safe</a>
+      </div>
+    </div>
+    <div class="row noMargin">
+      <div class="col box noMargin">
+        <a id="button3">Tic-Tac-Toe</a>
+      </div>
+      <div class="col box">
+        <a id="button4">Foodie</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id = "skills" class="container-fluid bg-3 text-center">
+  <h3 class="margin">Technolgies I Have Experience In</h3>
+  <p>
+    <mark>Languages</mark>: C/C++, Python, Java, JavaScript, SQL, BrightScript<br>
+    <mark>Frameworks</mark>: jQuery, Bootstrap, AJAX, Flask <br>
+    <mark>Cloud-Computing</mark>: AWS, MongoDB <br>
+    <mark>Assorted Technologies</mark>: Linux, RestAPI, Arduino, React, Node.js
+  </p>
+
+</div>
+
+<div id = "contact" class="container-fluid bg-3 text-center">    
+  <h3 class="margin">Let's Chat!</h3>
+  <form action=”mailto:atheo125@gmail.com”
+    method=”POST”
+    enctype=”multipart/form-data”
+    name=”EmailForm”>
+    Name:<br>
+    <input type=”text” size=”19″ name=”ContactName”><br><br>
+    Email:<br>
+    <input type="email" name="Contact-Email"><br><br> 
+    Message:<br> <textarea name=”ContactComment” rows=”6″ cols=”20″>
+    </textarea>
+    <br><br> 
+    <button type=”submit” value="Submit">Send</button>
+  </form>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-1 text-center">
+
+</footer>
 
 </body>
+
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p id="content">
+      Some text in the Modal..
+    </p>
+  </div>
+
+</div>
+
+<script>
+  // Get the modal
+var modal = document.getElementById("myModal");
+var modal_content = document.getElementById("content");
+// Get the button that opens the modal
+var btn1 = document.getElementById("button1");
+var btn2 = document.getElementById("button2");
+var btn3 = document.getElementById("button3");
+var btn4 = document.getElementById("button4");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn1.onclick = function() {
+  modal.style.display = "block";
+  modal_content.innerHTML = "Developed a full stack desktop application which allows UCR students to sent encrypted messages to each other, designed to resemble a early 2000’s chatroom. Accounts, requests and available spaces are stored MongoDB, while HTML/CSS/JavaScript and Node.js are used to retrieve input from the frontend. ";
+  
+}
+
+btn2.onclick = function() {
+  modal.style.display = "block";
+  
+  modal_content.innerText = " Constructed and programmed a secure lockbox with two-factor authorization in Arduino to ensure maximum security of personal items. Worked with three engineers to code commands in C/C++ to detect specific frequencies from an RFID key, record previous unlocks in an access log, and recognize pressure patterns from a touchscreen to mimic an Android phone lock \n";
+  var vid = document.createElement('iframe');
+  vid.src = "https://www.youtube.com/watch?v=wC-WLD8LAx4&ab_channel=MokerBellomo";
+  modal_content.appendChild(vid);
+}
+
+btn3.onclick = function() {
+  modal.style.display = "block";
+  modal_content.innerHTML = 
+  "Developed demo for a full stack application with cloud computing for a multi-player game of Tic-Tac-Toe, teaching myself ReactJS and Flask alongside a partner. Information for games and accounts stored on AWS DynamoDB";
+}
+
+btn4.onclick = function() {
+  modal.style.display = "block";
+  modal_content.innerHTML = "Wrote a full stack web application that searches for information on a data set containing 10,000 recipes using Flask for back end and JavaScript/CSS/HTML for front end in a group of five";
+}
+
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
 </html>

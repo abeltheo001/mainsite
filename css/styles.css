@@ -1,0 +1,143 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font: 1px Montserrat, sans-serif;
+    line-height: 2;
+    color:white;
+}
+
+h2 {
+    padding-top: 50px;
+    line-height: 2.5;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    cursor: pointer;
+}
+
+.img-thumbnail {
+    border-color: white;
+}
+
+.margin {
+    margin-bottom: 45px;
+}
+
+.front-page {
+    padding-top: 30px;
+    padding-left: 120px;
+}
+
+.bg-1 { 
+    background-color: #ecc204; 
+    color: #ffffff;
+}
+
+.bg-2 { 
+    background-color: #474e5d; 
+    color: white;
+}
+
+.bg-3 { 
+    background-color: #ffffff;
+    color: #555555;
+}
+
+.bg-4 { 
+    background-color: black;
+    color: #fff;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.noMargin {
+    margin: 10px;
+}
+  
+.box {
+    background-color:beige;
+    border-radius: 15px brown;
+    padding: 20px;
+    
+}
+  
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    scroll-behavior: smooth;
+    border: 0;
+    width: 100%;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.navbar-inverse {
+    color: red; 
+}
+
+.navbar-nav  li a:hover {
+    color:gold !important;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+.modal-content {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border: 5px solid goldenrod;
+    color:#000;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .row {
+        flex-direction: column;
+    }
+}
